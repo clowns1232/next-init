@@ -11,6 +11,7 @@ const fetchTodos = async () => {
 
 async function TodosList({}: Props) {
   const todos: TodoType[] = await fetchTodos();
+
   //   console.log(todos);
   return (
     <div>
